@@ -43,3 +43,40 @@ table {
 	border-spacing: 0;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+	font-family:sans-serif;
+}
+
+nav a{
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	color: white;
+	display:block;
+	text-align:center;
+	margin-left:70px;
+	padding-top:10px;
+}
+
+.Planing {
+	background-color: #FF764E;
+}
+
+.Learning {
+	background-color: #5ED3EB;
+}
+
+.Involved {
+	background-color: #FFCD69;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+}
+
+p, h2 {
+	font-family: 'Roboto Mono', monospace;
+}
