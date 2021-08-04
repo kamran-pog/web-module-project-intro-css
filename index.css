@@ -52,31 +52,115 @@ table {
 }
 
 nav a{
-	font-family: 'Roboto Mono', monospace;
-	text-decoration: none;
+	margin:  10px;
+	padding: 30px;
+	display: inline-block;
+	border-radius: 20px;
 	color: white;
-	display:block;
-	text-align:center;
-	margin-left:70px;
-	padding-top:10px;
+	margin-bottom: 20px;
+	 position:relative;
+	 left:15%;
+	 text-align:center;
+	 justify-content: space-between;
+	 float: none;
+	 width:10%;
+	 text-decoration: none; 
 }
 
 .Planing {
 	background-color: #FF764E;
+	Margin-right: 15%;
 }
 
 .Learning {
 	background-color: #5ED3EB;
+	Margin-right: 5%;
 }
 
 .Involved {
 	background-color: #FFCD69;
+	Margin-left: 10%;
 }
 
 h1 {
+	position: absolute;
 	font-family: 'Chelsea Market', cursive;
+	margin-top: -410px; 
+    margin-left: 600px;
+	font-size: 75px; 
 }
 
 p, h2 {
 	font-family: 'Roboto Mono', monospace;
+}
+
+.header_img img {
+	border-radius: 50%;
+	width: 25%;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.footer-img img {
+	height: 40vh;
+	width: 100vw;
+}
+
+.base-text {
+	background-color: #DDB9A3;
+	text-align: center;
+	padding: 10px;
+	font-size: large;
+	color: white;
+}
+
+p {
+	text-align: center;
+	padding: 10px;
+}
+
+.img-fire img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 150px;
+    width: 200px;
+}
+
+.explore {
+	position: absolute;
+	margin-top: -270px; 
+    margin-left: 650px;
+}
+
+.open {
+	position: absolute;
+	margin-top: -200px; 
+    margin-left: 780px;
+	width: 360px;
+	font-size: larger;
+}
+
+.fire {
+	width: 500px;
+	margin-left: 680px;
+}
+
+.img-car img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 150px;
+    width: 200px;
+}
+
+.car {
+	width: 500px;
+	margin-left: 680px;
+}
+
+.base-text {
+	margin-left: 25px;
+	margin-right: 25px;
 }
